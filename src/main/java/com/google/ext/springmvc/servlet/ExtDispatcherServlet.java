@@ -24,6 +24,7 @@ import com.google.utils.ClassUtil;
  * @author wk
  *
  */
+@SuppressWarnings("serial")
 public class ExtDispatcherServlet extends HttpServlet {
 
 	// mvc bean key=beanid ,value=∂‘œÛ

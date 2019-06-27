@@ -17,6 +17,7 @@ public class ClassUtil {
 	/**
 	 * 取得某个接口下所有实现这个接口的类
 	 */
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static List<Class> getAllClassByInterface(Class c) {
 		List<Class> returnClassList = null;
 
